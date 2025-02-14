@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Urbanist", serif;
+    max-width: 1440px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 7px 14px 0px #00000012;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Urbanist", serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28.8px;
+    letter-spacing: 0%;
+}
+.logo span{
+    color: #15804F;
+}
+.menu{
+    font-family: "Urbanist", serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 32px;
+}
+/* hero-section */
+#hero-section{
+   max-width: 1440px;
+   padding: 73px 1px;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 105px;
+    padding-bottom: 50px;
+}
+.intro-hero{
+    display: flex;
+    align-items: self-start;
+    justify-content: start;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 39px;
+}
+.intro-hero h1{
+    font-family: Urbanist;
+font-weight: 800;
+font-size: 60px;
+line-height: 82px;
+letter-spacing: 3%;
+} 
+.intro-hero p{
+    font-family: "Urbanist", serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.intro-hero p a{
+    color: #3164CF;
+    text-decoration: underline;
+}
+.intro-hero h1  span{
+    color: #15804F;
+}
+.hero-btn{
+    padding-top: 51px;
+}
+.intro-hero button{
+    background-color: #15804F;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 50px 13px 50px;
+    font-family: "Urbanist", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.6px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: aliceblue;
+}
+/* websites links */
+#websites{
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F9F9F9;
+    padding: 76px 191px;
+}
