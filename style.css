@@ -123,7 +123,7 @@ letter-spacing: 3%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     font-family: "Urbanist", serif;
     font-weight: 700;
     font-size: 54px;
@@ -169,5 +169,49 @@ letter-spacing: 3%;
     letter-spacing: 0%;
 }
 .card-text a{
+    color: #15804F;
+}
+
+/* projects section */
+#project-section{
+    padding: 50px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pro-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 58px;
+}
+.pro-texts{
+    width: 458px;
+    
+}
+.pro-texts h3{
+    font-family: "Urbanist", serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0%;
+    padding-bottom: 20px;
+
+}
+.pro-texts p{
+    font-family: "Cabin", serif;
+    color: #222222CC;
+
+    font-size: 17px;
+    line-height: 31px;
+    letter-spacing: 0%;
+
+}
+.pro-texts span{
+    color: #15804F;
+}
+.pro-texts a{
     color: #15804F;
 }
