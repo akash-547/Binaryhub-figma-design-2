@@ -220,11 +220,17 @@ letter-spacing: 3%;
 /* bord-section */
 #bord-section{
     background: #F9F9F9;
-    
-
+}
+.bord-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0 50px 0;
+    gap: 60px;
 }
 .bords-cards{
-    font-family: Arial, sans-serif;
+    font-family: "Urbanist", serif;
     display: flex;
     justify-content: center;
     align-items: center;
