@@ -97,6 +97,7 @@ letter-spacing: 3%;
     line-height: 21.6px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
     color: aliceblue;
 }
 /* websites links */
@@ -214,4 +215,68 @@ letter-spacing: 3%;
 }
 .pro-texts a{
     color: #15804F;
+}
+
+/* bord-section */
+#bord-section{
+    background: #F9F9F9;
+    
+
+}
+.bords-cards{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.bord-card1 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 300px;
+    width: 100%;
+}
+
+.bord-card1 img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+.bord-card1 b {
+font-family: "Urbanist", serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 10px;
+
+}
+
+.bord-card1 p {
+    padding: 23px 0;
+    color: #555;
+}
+
+.bord-icons {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.bord-icons i {
+    margin: 0 10px;
+    color: #15143966;
+    font-size: 22px;
 }
