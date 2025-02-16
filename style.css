@@ -286,3 +286,19 @@ padding-top: 10px;
     color: #15143966;
     font-size: 22px;
 }
+.bord-btn button{
+    
+        background-color: #15804F;
+        border: none;
+        border-radius: 5px;
+        padding: 13px 50px 13px 50px;
+        font-family: "Urbanist", serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21.6px;
+        letter-spacing: 0%;
+        text-align: center;
+        cursor: pointer;
+        color: aliceblue;
+    
+}
