@@ -51,19 +51,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 105px;
+    gap: 20px;
     padding-bottom: 50px;
 }
 .intro-hero{
     display: flex;
-    align-items: self-start;
+    
     justify-content: start;
     flex-direction: column;
     gap: 20px;
     padding-top: 39px;
 }
 .intro-hero h1{
-    font-family: Urbanist;
+    font-family: "Urbanist", serif;
 font-weight: 800;
 font-size: 60px;
 line-height: 82px;
@@ -317,4 +317,126 @@ padding-top: 10px;
 }
 .map-cointainer iframe{
     width: 1220px;
+}
+
+
+
+/* Footer Section */
+
+
+#footer-section {
+    background: linear-gradient(91.11deg, #15804F 0%, #3164CF 100%);
+    padding: 80px 20px 20px 20px;
+    font-family: "Urbanist", serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+    gap: 100px; 
+    margin: 0 auto;
+    padding-bottom: 20px; 
+    border-bottom: 1px solid  #FFFFFF1A;
+}
+.socials-footer p{
+font-family: "Urbanist", serif;
+font-weight: 300;
+font-size: 17px;
+line-height: 27px;
+letter-spacing: 0%;
+color: white;
+}
+.footer-icons{
+    display: flex;
+    color: white;
+    gap: 16px;
+    font-size: 20px;
+    padding-top: 33px;
+}
+
+
+
+.footer-company h3, .footer-resources h3, .footer-newsletter h3 {
+    font-size: 20px; 
+    color: white; 
+    font-family: "Urbanist", serif;
+    font-weight: 500;
+    padding-bottom: 21px; 
+}
+.footer-newsletter h3 {
+    padding-bottom: 30px;
+}
+
+
+.footer-company li, .footer-resources li {
+    padding-bottom: 18px; 
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.footer-company a, .footer-resources a {
+    text-decoration: none; 
+    color: white;
+    transition: color 0.3s ease; 
+}
+.footer-newsletter p {
+    font-size: 16px; 
+    color: #ffffff88;
+    line-height: 1.5; 
+    padding-bottom: 15px; 
+}
+
+.footer-newsletter form {
+    display: flex;
+    padding-bottom: 21px; 
+}
+
+.footer-newsletter input {
+    font-size: 16px;
+    border: none;
+    background: #3975B3;
+    color: white;
+    padding: 13px 32px 13px 43px;
+}
+input::placeholder{
+    font-family: "Urbanist", serif;
+    font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: -2%;
+color: #ffffffd2;
+}
+
+.footer-btn {
+    padding: 13px 32px 13px 43px;
+    font-size: 16px;
+    color: #fff;
+    background: #15804F;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-newsletter button:hover {
+    background: #0c663e;; /* Darker shade on hover */
+}
+
+/* Copyright Notice */
+.footer-copyright {
+    font-family: "Urbanist", serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -2%;
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffffd3;    
 }
