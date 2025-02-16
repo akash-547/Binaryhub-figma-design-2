@@ -300,5 +300,21 @@ padding-top: 10px;
         text-align: center;
         cursor: pointer;
         color: aliceblue;
-    
+}
+
+/* map section */
+#map-section{
+    max-width: 1440px;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-cointainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-cointainer iframe{
+    width: 1220px;
 }
