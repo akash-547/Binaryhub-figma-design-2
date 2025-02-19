@@ -405,6 +405,7 @@ color: white;
     background: #3975B3;
     color: white;
     padding: 13px 32px 13px 43px;
+    outline: none;
 }
 input::placeholder{
     font-family: "Urbanist", serif;
